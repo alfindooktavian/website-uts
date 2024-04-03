@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js"></script>
+
+    <title>Web  | Responsive Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="index.html">Finnn</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profil.html">Profil</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="hobi.html">Hobi</a></li>
+            <li><a href="pendaftaran.html">Pendaftaran</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="section">
+      <div class="section__container">
+            <form action="#">
+                <br>
+                <br>
+                <br>
+                <br>
+                <h1 class="form-title">Registration</h1>
+              <div class="main-user-info">
+                <div class="user-input-box">
+                  <label for="fullName">Full Name</label>
+                  <input type="text"
+                          id="fullName"
+                          name="fullName"
+                          placeholder="Enter Full Name"/>
+                </div>
+                <div class="user-input-box">
+                  <label for="username">Username</label>
+                  <input type="text"
+                          id="username"
+                          name="username"
+                          placeholder="Enter Username"/>
+                </div>
+                <div class="user-input-box">
+                  <label for="email">Email</label>
+                  <input type="email"
+                          id="email"
+                          name="email"
+                          placeholder="Enter Email"/>
+                </div>
+                <div class="user-input-box">
+                  <label for="phoneNumber">Phone Number</label>
+                  <input type="text"
+                          id="phoneNumber"
+                          name="phoneNumber"
+                          placeholder="Enter Phone Number"/>
+                </div>
+                <div class="user-input-box">
+                  <label for="password">Password</label>
+                  <input type="password"
+                          id="password"
+                          name="password"
+                          placeholder="Enter Password"/>
+                </div>
+                <div class="user-input-box">
+                  <label for="confirmPassword">Confirm Password</label>
+                  <input type="password"
+                          id="confirmPassword"
+                          name="confirmPassword"
+                          placeholder="Confirm Password"/>
+                </div>
+              </div>
+              <div class="gender-details-box">
+                <span class="gender-title">Gender</span>
+                <div class="gender-category">
+                  <input type="radio" name="gender" id="male">
+                  <label for="male">Male</label>
+                  <input type="radio" name="gender" id="female">
+                  <label for="female">Female</label>
+                  <input type="radio" name="gender" id="other">
+                  <label for="other">Other</label>
+                </div>
+              </div>
+              <div class="form-submit-btn">
+                <input type="submit" value="Register">
+              </div>
+            </form>
+          </div>
+    </section>
+  </body>
+  
+</html>
